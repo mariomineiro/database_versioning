@@ -19,3 +19,5 @@ CREATE TABLE [sqlver].[tblSchemaLog] (
 
 
 GO
+
+alter table [sqlver].[tblSchemaLog] add anothercolumnexample varchar(100)

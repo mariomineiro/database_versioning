@@ -4,7 +4,7 @@ SET ANSI_NULLS ON
 GO
 
 CREATE VIEW [dbo].[cenas] AS (
-select * from cenas
+select * from cenas -- novo comment
 
 GO
 SET QUOTED_IDENTIFIER OFF 

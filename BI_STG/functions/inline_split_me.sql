@@ -11,7 +11,7 @@ RETURN(SELECT ltrim(rtrim(convert(nvarchar(4000),
                                       Number) -
                             Number)
               ))) AS Value
-       FROM   Numbers
+       FROM   Numbers -- just adding a comment
        WHERE  Number <= convert(int, len(@param))
          AND  substring(convert(nvarchar(MAX), N',') + @param, Number, 1) =
                         N',' COLLATE Slovenian_BIN2)
